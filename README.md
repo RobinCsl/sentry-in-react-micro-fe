@@ -19,6 +19,7 @@ To see what is achieved in these examples, there are two options:
 1. You can have a look at the deployed `react-app`:
   - using `Sentry.init`: [Live Demo](https://robincsl-sentry-in-react-micro-fe-sentry-init.netlify.app/)
   - using an error boundary with a hub [Live Demo](https://robincsl-sentry-in-react-micro-fe-error-boundary.netlify.app/)
+
 (See `packages/react-app/index.js` for more details)
 
 2. You can clone the repo
@@ -46,7 +47,8 @@ npm run dev
 
 ## Instructions
 
-You should see the following application:
+After going through the [Getting Started](#getting-started) section, you should see the following application in your browser:
+
 !["screenshot of the application"](./assets/spa.png "screenshot of the application")
 
 Open your DevTools (e.g. by pressing <kbd>F12</kbd>) and go to the Console tab.
@@ -70,6 +72,8 @@ const client = new Sentry.client({
 ```
 
 What's more, if you close the React development overlay for errors, you can still trigger an application error for the main application, by pressing the button with label "Trigger application error". You should see in the console that the event was also logged and it is prefixed with `react-app`.
+
+> Note: The _Report feedback_ buttons don't work on the deployed app because the Sentry DSNs used in these examples are obtained from a local instance of Sentry. See the [getsentry/onpremise](https://github.com/getsentry/onpremise) repository for more information about that.
 
 ## TODO
 
