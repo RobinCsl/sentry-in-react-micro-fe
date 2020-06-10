@@ -1,5 +1,3 @@
-export { default as Button } from './src/button'
-
 import React from 'react';
 import { withErrorBoundary, init } from '@robincsl/sentry';
 
