@@ -1,0 +1,23 @@
+{
+  "name": "@robincsl/micro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@robincsl/sentry": "*",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "@robincsl/sentry": "*",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [],
+  "author": "Robin Cussol",
+  "license": "ISC"
+}

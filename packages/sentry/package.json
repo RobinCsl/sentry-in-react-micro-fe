@@ -1,0 +1,21 @@
+{
+  "name": "@robincsl/sentry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Robin Cussol",
+  "license": "ISC",
+  "devDependencies": {
+    "@sentry/browser": "^5.17.0",
+    "@sentry/hub": "^5.17.0"
+  },
+  "peerDependencies": {
+    "@sentry/browser": "^5.17.0",
+    "@sentry/hub": "^5.17.0"
+  }
+}
