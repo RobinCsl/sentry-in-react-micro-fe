@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@robincsl/micro-app": "*",
+    "@robincsl/sentry": "*",
+    "@sentry/browser": "^5.17.0",
+    "@sentry/node": "^5.17.0",
+    "next": "9.4.4",
+    "next-transpile-modules": "^3.3.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
