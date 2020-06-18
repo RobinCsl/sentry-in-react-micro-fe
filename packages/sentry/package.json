@@ -12,10 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@sentry/browser": "^5.17.0",
-    "@sentry/hub": "^5.17.0"
+    "@sentry/node": "^5.17.0"
   },
   "peerDependencies": {
     "@sentry/browser": "^5.17.0",
-    "@sentry/hub": "^5.17.0"
+    "@sentry/node": "^5.17.0"
   }
 }

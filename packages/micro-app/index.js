@@ -32,7 +32,7 @@ function MicroApp() {
   }
 
   return (
-    <div style={{background: "#555", padding: "12px"}}>
+    <div style={{background: "#555", padding: "12px", color: "white"}}>
       <h2><code>@robincsl/micro-app</code></h2>
       <p>The current value is: {value}</p>
       <button onClick={increment(value,setValue)}>Increment</button>
